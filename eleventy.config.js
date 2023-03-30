@@ -2,8 +2,10 @@ module.exports = function(eleventyConfig) {
     // Return your Object options:
     return {
       dir: {
-        input: "_input",
-        output: "_output"
+        input: "src",
+        includes: "includes",
+        layouts: "layouts",
+        output: "dist",
       }
     }
   };
