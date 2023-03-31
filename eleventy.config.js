@@ -4,8 +4,9 @@ module.exports = function(eleventyConfig) {
       dir: {
         input: "src",
         includes: "includes",
-        layouts: "layouts",
+        layouts: "includes/layouts",
         output: "dist",
       }
     }
   };
+  
