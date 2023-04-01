@@ -11,7 +11,16 @@ title: Title from layout frontmatter
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/styles/styles.css'>
     <!-- <script src='main.js'></script> -->
 </head>
-<body>
-    {{ content | safe }}
+<body class="bg-ivory text-madder">
+    <header>
+        <h1 class="text-3xl font-bold underline">
+            <a href="/">
+                mjawn
+            </a>
+        </h1>
+    </header>
+    <div>
+        {{ content | safe }}
+    </div>
 </body>
 </html>
