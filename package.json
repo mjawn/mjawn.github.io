@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css\" \"npx prettier --write .\"",
-        "start": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy --serve\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --watch\" \"npx prettier --write .\""
+        "build": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css\" \"npx prettier --write \".\" \"./**/*.njk\"\"",
+        "start": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy --serve\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --watch\" \"npx prettier --write \".\" \"./**/*.njk\"\""
     },
     "author": "",
     "license": "ISC",
