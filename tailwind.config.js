@@ -11,13 +11,14 @@ module.exports = {
             madder: "#A41623",
             gunmetal: "#162931"
         },
-        fontFamily: {
-            sans: [...defaultTheme.fontFamily.sans],
-            serif: [...defaultTheme.fontFamily.serif],
-            mono: [...defaultTheme.fontFamily.mono],
-            AbrilFatface: ["Abril Fatface"]
-        },
-        extend: {}
+        extend: {
+            borderWidth: {
+                "5": "5px"
+            },
+            fontFamily: {
+                AbrilFatface: ["Abril Fatface"]
+            }
+        }
     },
     plugins: []
 }
