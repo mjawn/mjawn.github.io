@@ -15,12 +15,7 @@ module.exports = {
             sans: [...defaultTheme.fontFamily.sans],
             serif: [...defaultTheme.fontFamily.serif],
             mono: [...defaultTheme.fontFamily.mono],
-            AbrilFatface: ["Abril Fatface"],
-            YesevaOne: ["Yeseva One"],
-            Chonburi: ["Chonburi"],
-            PollerOne: ["Poller One"],
-            Limelight: ["Limelight"],
-            OrelegaOne: ["Orelega One"]
+            AbrilFatface: ["Abril Fatface"]
         },
         extend: {}
     },
