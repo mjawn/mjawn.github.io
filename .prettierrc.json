@@ -1,0 +1,9 @@
+{
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.njk",
+            "options": { "parser": "html" }
+        }
+    ]
+}
