@@ -12,100 +12,26 @@ title: Title from layout frontmatter
         <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@900&family=Lora:wght@700&family=Source+Serif+Pro:wght@700&display=swap" rel="stylesheet" />
-        <!-- <script src='main.js'></script> -->
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet" />
     </head>
     <body class="bg-ivory text-gunmetal">
         {% include "partials/svg_sprite.njk" %}
         <header class="border-b-5 border-b-madder py-5 text-madder">
-            <div class="container mx-auto flex flex-col px-5">
-                <h1 class="mb-8 font-AbrilFatface text-5xl font-normal last:mb-0">
-                    <a href="/" class="flex items-center">
+            <div class="container mx-auto flex px-5">
+                <h1 class="mb-8 font-heading font-bold last:mb-0">
+                    <a href="/" class="group flex items-center">
                         <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
+                            <use xlink:href="#icon-logo"></use>
                         </svg>
-                        <span class="pb-2">mjawn</span>
+                        <span class="text-5xl group-hover:underline">
+                            <span class="mb-1">mjawn,</span>
+                            <span class="mt-1.5 text-4xl">a portfolio website.</span>
+                        </span>
                     </a>
                 </h1>
-                <h1 class="mb-8 font-FrankRuhlLibre text-5xl font-black last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                <h1 class="mb-8 font-Lora text-5xl font-bold last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                <h1 class="mb-8 font-SourceSerifPro text-5xl font-bold last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                {#
-                <h1 class="mb-8 font-FrankRuhlLibre text-5xl font-normal last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                <h1 class="mb-8 font-FrankRuhlLibre text-5xl font-medium last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                <h1 class="mb-8 font-FrankRuhlLibre text-5xl font-semibold last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                <h1 class="mb-8 font-FrankRuhlLibre text-5xl font-bold last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                <h1 class="mb-8 font-FrankRuhlLibre text-5xl font-extrabold last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                <h1 class="mb-8 font-FrankRuhlLibre text-5xl font-black last:mb-0">
-                    <a href="/" class="flex items-center">
-                        <svg class="mr-2 h-16 w-16 fill-current">
-                            <use xlink:href="#icon-logo-new"></use>
-                        </svg>
-                        <span class="pb-2">mjawn</span>
-                    </a>
-                </h1>
-                #}
             </div>
         </header>
 
-        <main class="py-5">
-            <div class="container mx-auto px-5">{{ content | safe }}</div>
-        </main>
+        <main>{{ content | safe }}</main>
     </body>
 </html>

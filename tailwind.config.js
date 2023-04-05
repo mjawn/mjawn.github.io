@@ -16,10 +16,7 @@ module.exports = {
                 5: "5px"
             },
             fontFamily: {
-                AbrilFatface: ["Abril Fatface"],
-                FrankRuhlLibre: ["Frank Ruhl Libre"],
-                Lora: ["Lora"],
-                SourceSerifPro: ["Source Serif Pro"]
+                heading: ["Lora", "serif"]
             }
         }
     },
