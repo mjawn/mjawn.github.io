@@ -1,6 +1,6 @@
 {
     "bracketSameLine": true,
-    "printWidth": 225,
+    "printWidth": 175,
     "tabWidth": 4,
     "trailingComma": "none",
     "overrides": [
