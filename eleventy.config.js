@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
             input: "src",
             includes: "includes",
             layouts: "includes/layouts",
-            output: "dist",
-        },
+            output: "dist"
+        }
     };
 };

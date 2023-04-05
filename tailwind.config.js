@@ -9,19 +9,19 @@ module.exports = {
             transparent: "transparent",
             ivory: "#FDFBE8",
             madder: "#A41623",
-            gunmetal: "#162931",
+            gunmetal: "#162931"
         },
         extend: {
             borderWidth: {
-                5: "5px",
+                5: "5px"
             },
             fontFamily: {
                 AbrilFatface: ["Abril Fatface"],
                 FrankRuhlLibre: ["Frank Ruhl Libre"],
                 Lora: ["Lora"],
                 SourceSerifPro: ["Source Serif Pro"]
-            },
-        },
+            }
+        }
     },
-    plugins: [],
+    plugins: []
 };
