@@ -9,7 +9,8 @@ module.exports = {
             transparent: "transparent",
             ivory: "#FDFBE8",
             madder: "#A41623",
-            gunmetal: "#162931"
+            gunmetal: "#162931",
+            moonstone: "#0FA3B1"
         },
         extend: {
             borderWidth: {
