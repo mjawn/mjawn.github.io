@@ -2,7 +2,12 @@ const pluginWebc = require("@11ty/eleventy-plugin-webc");
 
 module.exports = function (eleventyConfig) {
     // Plugins
-    eleventyConfig.addPlugin(pluginWebc);
+    eleventyConfig.addPlugin(pluginWebc, {
+        // Glob to find no-import global components
+		// This path is relative to the project-root!
+		// The default value is shown:
+		components: "src/components/**/*.webc"
+    });
     // Return your Object options:
     return {
         dir: {
