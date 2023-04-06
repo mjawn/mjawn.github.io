@@ -1,4 +1,8 @@
+const pluginWebc = require("@11ty/eleventy-plugin-webc");
+
 module.exports = function (eleventyConfig) {
+    // Plugins
+    eleventyConfig.addPlugin(pluginWebc);
     // Return your Object options:
     return {
         dir: {
