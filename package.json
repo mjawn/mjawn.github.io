@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "clean": "npx rimraf ./dist",
         "prettier": "npx prettier --write \".\" \"./**/*.njk\"",
         "build": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css\"",
         "start": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy --serve\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --watch\""
