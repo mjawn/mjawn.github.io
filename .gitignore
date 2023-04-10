@@ -1,8 +1,0 @@
-# Visual Studio Code files
-*.code-workspace
-
-# Dependency directories
-node_modules/
-
-# Eleventy files
-dist
