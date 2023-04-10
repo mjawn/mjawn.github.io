@@ -5,10 +5,12 @@
     "main": "index.js",
     "scripts": {
         "clean": "npx rimraf ./dist",
-        "minify_css": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify",
+        "11ty": "npx @11ty/eleventy",
+        "11ty:serve": "npm run 11ty -- --serve --ignore-initial",
+        "tailwind": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify",
         "prettier": "npx prettier --write \".\" \"./**/*.webc\"",
-        "build": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css\"",
-        "start": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy --serve\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --watch\""
+        "build": "npm run clean & npm run 11ty & npm run tailwind & npm run prettier",
+        "serve": "npm run build & npm run 11ty:serve"
     },
     "author": "",
     "license": "ISC",
