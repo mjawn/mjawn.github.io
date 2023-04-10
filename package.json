@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "clean": "npx rimraf ./dist",
+        "minify_css": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify",
         "prettier": "npx prettier --write \".\" \"./**/*.webc\"",
         "build": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css\"",
         "start": "npx rimraf ./dist & npx concurrently \"npx @11ty/eleventy --serve\" \"npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --watch\""

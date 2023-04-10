@@ -1,5 +1,5 @@
 ---
-title: Title from layout frontmatter
+title: mjawn, a porfolio website.
 ---
 
 <!DOCTYPE html>
@@ -7,7 +7,7 @@ title: Title from layout frontmatter
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>{{ title }}</title>
+        <title @text="title"></title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/styles.css" webc:keep />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,6 +31,6 @@ title: Title from layout frontmatter
                 </h1>
             </div>
         </header>
-        <main @raw="content"></main>
+        <main @html="content"></main>
     </body>
 </html>
