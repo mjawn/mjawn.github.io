@@ -1,0 +1,12 @@
+{
+    "bracketSameLine": true,
+    "printWidth": 175,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": ["*.webc"],
+            "options": { "parser": "html" }
+        }
+    ]
+}

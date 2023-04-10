@@ -1,0 +1,36 @@
+---
+title: mjawn, a porfolio website.
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title @text="title"></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/styles.css" webc:keep />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet" webc:keep />
+    </head>
+    <body class="bg-ivory text-gunmetal">
+        <svg-sprite></svg-sprite>
+        <header class="border-b-5 border-b-madder py-5 text-madder">
+            <div class="container mx-auto flex px-5">
+                <h1 class="mb-8 font-heading font-bold last:mb-0">
+                    <a href="/" class="group flex items-center">
+                        <svg class="mr-2 h-16 w-16 fill-current">
+                            <use xlink:href="#icon-logo"></use>
+                        </svg>
+                        <span class="text-5xl group-hover:underline">
+                            <span class="mb-1">mjawn,</span>
+                            <span class="mt-1.5 text-4xl">a portfolio website.</span>
+                        </span>
+                    </a>
+                </h1>
+            </div>
+        </header>
+        <main @html="content"></main>
+    </body>
+</html>
