@@ -22,7 +22,7 @@ jobs:
 
             - name: Install dependencies & build
               run: |
-                  npm install
+                  npm ci
                   npm run build
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3.8.0
@@ -33,4 +33,4 @@ jobs:
                   publish_dir: dist
                   #publish_branch is the branch in the repository.
                   #this is where you need to point GitHub pages
-                  publish_branch: main
+                  publish_branch: gh-pages
