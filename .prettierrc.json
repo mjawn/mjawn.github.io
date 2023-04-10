@@ -5,7 +5,7 @@
     "trailingComma": "none",
     "overrides": [
         {
-            "files": "*.njk",
+            "files": ["*.webc"],
             "options": { "parser": "html" }
         }
     ]

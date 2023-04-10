@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
-    content: ["./src/**/*.{html,njk}"],
+    content: ["./src/**/*.webc"],
     theme: {
         colors: {
             current: "currentColor",

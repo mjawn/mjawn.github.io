@@ -9,13 +9,13 @@ title: Title from layout frontmatter
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>{{ title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/styles.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/styles.css" webc:keep />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet" webc:keep />
     </head>
     <body class="bg-ivory text-gunmetal">
-        {% include "partials/svg_sprite.njk" %}
+        <svg-sprite></svg-sprite>
         <header class="border-b-5 border-b-madder py-5 text-madder">
             <div class="container mx-auto flex px-5">
                 <h1 class="mb-8 font-heading font-bold last:mb-0">
@@ -31,7 +31,6 @@ title: Title from layout frontmatter
                 </h1>
             </div>
         </header>
-
-        <main>{{ content | safe }}</main>
+        <main @raw="content"></main>
     </body>
 </html>
