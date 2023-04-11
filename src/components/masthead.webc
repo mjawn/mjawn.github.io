@@ -1,0 +1,14 @@
+<!-- masthead.webc -->
+<header class="border-b-5 border-b-madder py-5 text-madder">
+    <div class="container mx-auto flex px-5">
+        <h1 class="mb-8 font-heading font-bold last:mb-0">
+            <a href="/" class="group flex items-center">
+                <icon></icon>
+                <span class="text-5xl group-hover:underline">
+                    <span class="mb-1">mjawn,</span>
+                    <span class="mt-1.5 text-4xl">a portfolio website.</span>
+                </span>
+            </a>
+        </h1>
+    </div>
+</header>
