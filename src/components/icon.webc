@@ -1,0 +1,4 @@
+<!-- icon.webc -->
+<svg class="mr-2 h-16 w-16 fill-current">
+    <use xlink:href="#icon-logo"></use>
+</svg>

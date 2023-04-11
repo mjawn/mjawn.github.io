@@ -8,9 +8,10 @@
         "11ty": "npx @11ty/eleventy",
         "11ty:serve": "npm run 11ty -- --serve --ignore-initial",
         "tailwind": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify",
+        "tailwind:watch": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify --watch",
         "prettier": "npx prettier --write \".\" \"./**/*.webc\"",
         "build": "npm run clean & npm run 11ty & npm run tailwind & npm run prettier",
-        "serve": "npm run build & npm run 11ty:serve"
+        "serve": "npm run build & npx concurrently \"npm run 11ty:serve\" \"npm run tailwind:watch\""
     },
     "author": "",
     "license": "ISC",

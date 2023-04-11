@@ -17,7 +17,8 @@ module.exports = {
                 5: "5px"
             },
             fontFamily: {
-                heading: ["Lora", "serif"]
+                heading: ["Lora", "serif"],
+                body: ["Jost", "sans-serif"]
             }
         }
     },
