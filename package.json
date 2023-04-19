@@ -10,7 +10,7 @@
         "tailwind": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify",
         "tailwind:watch": "npm run tailwind -- --watch",
         "prettier": "npx prettier --write \".\" \"./**/*.webc\"",
-        "build": "npm run clean & npm run 11ty & npm run tailwind & npm run prettier",
+        "build": "npm run clean & npm run 11ty & node scripts/readme.js & npm run tailwind & npm run prettier",
         "serve": "npm run build & npx concurrently \"npm run 11ty:serve\" \"npm run tailwind:watch\""
     },
     "author": "",
