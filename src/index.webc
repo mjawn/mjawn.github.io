@@ -2,4 +2,7 @@
 layout: page.webc
 ---
 
-<heading-block></heading-block>
+<section>
+    <heading-block></heading-block>
+    <div class=""></div>
+</section>
