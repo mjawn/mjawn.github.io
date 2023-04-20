@@ -1,6 +1,6 @@
-# mjawn, a portfolio website
+# A Portfolio Website
 
-## or: How I Learned to Stop Working Exclusively on Legacy Codebases and Embrace the Modern Web.
+Or: How I Learned to Stop Working Exclusively on Legacy Codebases and Embrace the Modern Web.
 
 This is the repository for my new portfolio site. It is currently a work in progress. As a Front-End Web Developer that has always worked in large corporate environments with old codebases, keeping a portfolio and staying up to date with current technologies has been a challenge for two reasons:
 

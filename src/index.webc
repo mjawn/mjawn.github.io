@@ -4,7 +4,7 @@ layout: page.webc
 
 <section>
     <heading-block></heading-block>
-    <div class="container mx-auto px-5 py-10 font-body text-2xl leading-normal lg:px-64 lg:py-20">
+    <div class="container mx-auto px-5 py-10 font-body text-2xl leading-normal xl:px-64 xl:py-20">
         <p class="mb-10">
             This is the repository for my new portfolio site. It is currently a work in progress. As a Front-End Web Developer that has always worked in large corporate
             environments with old codebases, keeping a portfolio and staying up to date with current technologies has been a challenge for two reasons:
