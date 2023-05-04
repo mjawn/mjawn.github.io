@@ -1,11 +1,9 @@
 <!-- heading-block.webc -->
 <div class="bg-gunmetal py-4">
     <div class="border-y-5 border-y-moonstone">
-        <div class="container mx-auto px-5 py-10 text-center text-ivory xl:px-64 xl:py-20">
-            <h2 class="font-heading text-3xl font-bold leading-relaxed xl:text-5xl xl:leading-relaxed">A Portfolio Website</h2>
-            <p class="font-body text-2xl font-semibold leading-normal xl:text-4xl xl:leading-normal">
-                Or: How I Learned to Stop Working Exclusively on Legacy Codebases and Embrace the Modern Web.
-            </p>
+        <div class="container mx-auto px-5 py-10 text-center leading-relaxed text-ivory xl:px-64 xl:py-20 xl:leading-relaxed">
+            <h2 class="">A Portfolio Website</h2>
+            <p class="text-2xl font-semibold xl:text-4xl">Or: How I Learned to Stop Working Exclusively on Legacy Codebases and Embrace the Modern Web.</p>
             <!---<template webc:type="11ty" 11ty:type="njk,md"> {% include 'partials/readme/readme-heading.njk' %} </template>
             <template webc:type="11ty" 11ty:type="njk,md"> {% include 'partials/readme/readme-body.njk' %} </template>--->
         </div>
