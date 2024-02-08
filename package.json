@@ -5,8 +5,6 @@
     "main": "index.js",
     "scripts": {
         "clean": "npx rimraf ./dist",
-        "11ty": "npx @11ty/eleventy",
-        "11ty:serve": "npm run 11ty -- --serve --ignore-initial",
         "tailwind": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify",
         "tailwind:watch": "npm run tailwind -- --watch",
         "prettier": "npx prettier --write \".\" \"./**/*.webc\"",
@@ -16,11 +14,11 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@11ty/eleventy": "^2.0.1",
+        "@11ty/eleventy": "^3.0.0-alpha.4",
         "@11ty/eleventy-plugin-webc": "^0.11.0",
         "concurrently": "^8.0.1",
-        "prettier": "^2.8.7",
-        "prettier-plugin-tailwindcss": "^0.2.6",
+        "prettier": "^3.2.5",
+        "prettier-plugin-tailwindcss": "^0.5.11",
         "rimraf": "^5.0.0",
         "tailwindcss": "^3.3.1"
     }
