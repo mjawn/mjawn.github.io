@@ -4,70 +4,62 @@ layout: page.webc
 
 <section>
     <heading-block></heading-block>
-    <div class="container mx-auto px-5 py-10 font-body text-2xl leading-normal xl:px-64 xl:py-20">
-        <p class="mb-10">
+    <div class="container mx-auto px-5 py-10 xl:px-64 xl:py-20">
+        <p>
             This is the repository for my new portfolio site. It is currently a work in progress. As a Front-End Web Developer that has always worked in large corporate
             environments with old codebases, keeping a portfolio and staying up to date with current technologies has been a challenge for two reasons:
         </p>
-        <ol class="mb-10 list-decimal">
-            <li class="mb-5 ml-9">
+        <ol>
+            <li>
                 For the purpose of a portfolio, I don't have access to source code when I leave a position, so the best I can do is point somebody at a website and say "I
                 worked on this part and that part". In the case of internal projects, there's nothing to show at all.
             </li>
-            <li class="mb-5 ml-9 last:mb-0">
-                Large IT organizations can be, and in my lived experience so far, are always slow to change. Over the course of my 13-year career, I have yet to work for a
-                company that has embraced modern JavaScript frameworks during my time there. Everything has been jQuery. I've been lucky that a few places embraced HTML5 and
+            <li>
+                Large IT organizations can be slow to change. Over the course of my decade-long career, I have yet to work for a
+                company that has embraced modern JavaScript frameworks during my time there. Everything has been jQuery or vanilla JavaScript. I've been lucky that a few places embraced HTML5 and
                 CSS preprocessors.
             </li>
         </ol>
-        <p class="mb-10">
+        <p>
             So, the purpose of this portfolio website will be to showcase my past work as usual, but also and more importantly, to showcase my own improvement as I learn new
             things. The way that I intend to do this is to build the website using modern technologies, and create sample components that are representative of the kind I've
             worked on in the past. Things like a product list or product detail page for retail, or perhaps a stock holdings table for a brokerage. I have decided on a tech
             stack based on where my interests currently lie and what I think will be marketable skills that will help me stand out:
         </p>
-        <ul class="mb-10 list-disc pl-9">
-            <li class="mb-5">
-                <p>
-                    <a class="text-madder underline" href="https://www.11ty.dev/">Eleventy</a> (<a class="text-madder underline" href="https://github.com/11ty/eleventy/"
-                        >GitHub</a
-                    >): Eleventy is an incredible static site generator written in JavaScript, but does not require it (or really anything) to develop with. It's zero-config
-                    out of the box and supports the most popular templating languages. For this site I'm using a Web Components-inspired template language the Eleventy team
-                    created called <a class="text-madder underline" href="https://www.11ty.dev/docs/languages/webc/">WebC</a> (<a
-                        class="text-madder underline"
-                        href="https://github.com/11ty/webc/"
-                        >GitHub</a
-                    >). I have been in love with Eleventy since I first discovered it, and it looks like they've got another winner on their hands with WebC.
-                </p>
+        <ul>
+            <li>
+                <a class="text-madder underline" href="https://www.11ty.dev/">Eleventy</a> (<a class="text-madder underline" href="https://github.com/11ty/eleventy/">GitHub</a
+                >): Eleventy is an incredible static site generator written in JavaScript, but does not require it (or really anything) to develop with. It's zero-config out
+                of the box and supports the most popular templating languages. For this site I'm using a Web Components-inspired template language the Eleventy team created
+                called <a class="text-madder underline" href="https://www.11ty.dev/docs/languages/webc/">WebC</a> (<a
+                    class="text-madder underline"
+                    href="https://github.com/11ty/webc/"
+                    >GitHub</a
+                >). I have been in love with Eleventy since I first discovered it, and it looks like they've got another winner on their hands with WebC.
             </li>
-            <li class="mb-5">
-                <p>
-                    <a class="text-madder underline" href="https://tailwindcss.com/">Tailwind CSS</a> (<a
-                        class="text-madder underline"
-                        href="https://github.com/tailwindlabs/tailwindcss"
-                        >GitHub</a
-                    >): This one was a tough pill to swallow at first, but I understood the mission and there are a lot of organizations using it, so it made sense to make
-                    myself familiar with it. So far, I think I like it, but I am still getting used to it. I think it will make sense to balance Tailwind's utility-first
-                    approach with light use of their <code>@apply</code> directive. The most challenging part by far was configuring the
-                    <a class="text-madder underline" href="https://prettier.io/">Prettier</a>
-                    <a class="text-madder underline" href="https://github.com/tailwindlabs/prettier-plugin-tailwindcss">plugin</a> for class organization.
-                </p>
+            <li>
+                <a class="text-madder underline" href="https://tailwindcss.com/">Tailwind CSS</a> (<a
+                    class="text-madder underline"
+                    href="https://github.com/tailwindlabs/tailwindcss"
+                    >GitHub</a
+                >): This one was a tough pill to swallow at first, but I understood the mission and there are a lot of organizations using it, so it made sense to make myself
+                familiar with it. So far, I think I like it, but I am still getting used to it. I think it will make sense to balance Tailwind's utility-first approach with
+                light use of their <code>@apply</code> directive. The most challenging part by far was configuring the
+                <a class="text-madder underline" href="https://prettier.io/">Prettier</a>
+                <a class="text-madder underline" href="https://github.com/tailwindlabs/prettier-plugin-tailwindcss">plugin</a> for class organization.
             </li>
-            <li class="mb-5 last:mb-0">
-                <p>
-                    <a class="text-madder underline" href="https://vuejs.org/">Vue</a> (<a class="text-madder underline" href="https://github.com/vuejs/">GitHub</a>): Of the 3
-                    modern JavaScript frameworks I've played around with, Vue is by far my favorite. I love that it is incrementally adoptable and flexible enough to be used
-                    in any type of website architecture. This should make it a no-brainer for large organizations looking to upgrade their legacy codebases. I don't understand
-                    why it hasn't caught on yet. I intend to get myself more comfortable using it and will continue singing its praises. For this static website, I will be
-                    using it mainly for component interaction. I also think it would be in my best interest to show Vue in different use cases apart from static sites, like a
-                    Single Page App, since any prospective employer looking at this probably doesn't use a static website. I have my own opinions but am also pragmatic.
-                </p>
+            <li>
+                <a class="text-madder underline" href="https://vuejs.org/">Vue</a> (<a class="text-madder underline" href="https://github.com/vuejs/">GitHub</a>): Of the 3
+                modern JavaScript frameworks I've played around with, Vue is by far my favorite. I love that it is incrementally adoptable and flexible enough to be used in
+                any type of website architecture. This should make it a no-brainer for large organizations looking to upgrade their legacy codebases. I don't understand why it
+                hasn't caught on yet. I intend to get myself more comfortable using it and will continue singing its praises. For this static website, I will be using it
+                mainly for component interaction. I also think it would be in my best interest to show Vue in different use cases apart from static sites, like a Single Page
+                App, since any prospective employer looking at this probably doesn't use a static website. I have my own opinions but am also pragmatic.
             </li>
         </ul>
-        <p class="mb-10 last:mb-0">
+        <p>
             I am also using GitHub Pages for the first time, with automatic deployments. When a pull request is created to merge a branch into <code>main</code>, the NPM
-            scripts used to build the site are run, and the static assets are pushed to the <code>gh-pages</code> branch, which triggers a deployment to the live site. It was
-            not the most intuitive thing to set up but seems to working smoothly now. The build script can be found in the <code>.github</code> directory.
+            scripts used to build the site are run, and the static assets are deployed to the live site. The workflow yaml can be found in the <code>.github</code> directory.
         </p>
     </div>
 </section>

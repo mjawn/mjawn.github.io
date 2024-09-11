@@ -15,7 +15,7 @@ title: mjawn, a portfolio website.
         <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/styles.css" webc:keep />
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Lora:wght@700&display=swap" rel="stylesheet" webc:keep />
     </head>
-    <body class="bg-ivory text-gunmetal">
+    <body class="font-body leading-normal text-xl bg-ivory text-gunmetal">
         <svg-sprite></svg-sprite>
         <masthead></masthead>
         <main @html="content"></main>

@@ -1,25 +1,43 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer base {
-    h1 {
-        @apply font-heading text-3xl font-bold xl:text-5xl;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading font-bold;
     }
 
+    h1,
     h2 {
-        @apply font-heading text-3xl font-bold xl:text-5xl;
+        @apply text-3xl xl:text-5xl;
     }
 
-    h3 {
-        @apply font-heading font-bold;
+    p,
+    ol,
+    ul {
+        @apply mb-10 last:mb-0;
     }
 
-    h4 {
-        @apply font-heading font-bold;
+    ol,
+    ul {
+        @apply pl-10;
     }
 
-    body {
-        @apply font-body;
+    ol {
+        @apply list-decimal;
+    }
+
+    ul {
+        @apply list-disc;
+    }
+
+    li {
+        @apply mb-5 last:mb-0;
     }
 }
+
+@tailwind components;
+@tailwind utilities;
