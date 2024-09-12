@@ -1,4 +1,4 @@
 <!-- icon.webc -->
-<svg :class="'icon-' + id + ' fill-current stroke-current'" webc:root="override">
+<svg :class="'icon-' + id + ' size-[1.5em] mx-[0.167em] first:ml-0 last:mr-0 fill-current stroke-current'" webc:root="override">
     <use :xlink:href="'#icon-' + id"></use>
 </svg>
