@@ -37,6 +37,10 @@
     li {
         @apply mb-5 last:mb-0;
     }
+
+    a {
+        @apply text-madder hover:underline inline-flex items-center;
+    }
 }
 
 @tailwind components;

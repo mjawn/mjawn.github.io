@@ -1,11 +1,17 @@
 <!-- masthead.webc -->
-<header class="border-b-5 border-b-madder py-5 text-madder">
-    <div class="container mx-auto flex px-5">
+<header class="py-5 border-b-5 border-b-madder text-madder">
+    <div class="container flex justify-between items-center mx-auto px-5">
         <h1 class="leading-none">
-            <a href="/" class="flex items-center hover:underline">
-                <icon class="mr-2 h-16 w-16" @id="mjawn"></icon>
-                <span class="mb-1">mjawn</span>
+            <a href="/">
+                <icon class="" @id="mjawn"></icon>
+                <span>mjawn</span>
             </a>
         </h1>
+        <p class="font-heading text-2xl">
+            <a href="https://github.com/mjawn/mjawn.github.io">
+                <span>Kindly view on GitHub</span>
+                <icon @id="ionic-github"></icon>
+            </a>
+        </p>
     </div>
 </header>
