@@ -2,6 +2,8 @@
 
 Or: How I Learned to Stop Working Exclusively on Legacy Codebases and Embrace the Modern Web.
 
+## The story so far...
+
 This is the repository for my new portfolio site. It is currently a work in progress. As a Front-End Web Developer that has always worked in large corporate environments with old codebases, keeping a portfolio and staying up to date with current technologies has been a challenge for two reasons:
 
 1.  For the purpose of a portfolio, I don't have access to source code when I leave a position, so the best I can do is point somebody at a website and say "I worked on this part and that part". In the case of internal projects, there's nothing to show at all.
