@@ -39,7 +39,7 @@
     }
 
     a {
-        @apply text-madder hover:underline inline-flex items-center;
+        @apply text-madder underline inline-flex items-center;
     }
 }
 
