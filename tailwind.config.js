@@ -8,7 +8,10 @@ module.exports = {
             transparent: "transparent",
             ivory: "#FDFBE8",
             madder: "#A41623",
+            rojo: "#DC1E2E",
             gunmetal: "#162931",
+            jungle: "#06A77D",
+            fern: "#4F7E44",
             moonstone: "#0FA3B1"
         },
         extend: {
