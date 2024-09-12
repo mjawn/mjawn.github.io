@@ -39,7 +39,7 @@
     }
 
     a {
-        @apply text-madder underline inline-flex items-center;
+        @apply text-rojo font-semibold underline inline-flex items-center;
     }
 }
 
