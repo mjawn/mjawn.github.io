@@ -8,7 +8,7 @@
         "tailwind": "npx tailwindcss -i ./src/assets/styles/styles.css -o ./dist/assets/styles/styles.css --minify",
         "tailwind:watch": "npm run tailwind -- --watch",
         "prettier": "npx prettier --write \".\" \"./**/*.webc\"",
-        "build": "npm run clean & npx @11ty/eleventy & node scripts/readme.js & npm run tailwind & npm run prettier",
+        "build": "npm run clean & npx @11ty/eleventy & npm run tailwind & npm run prettier",
         "serve": "npm run build && npx concurrently \"npx @11ty/eleventy --serve\" \"npm run tailwind:watch\""
     },
     "author": "",
