@@ -2,14 +2,15 @@
 <header class="py-5 border-b-5 border-b-madder text-madder">
     <div class="container flex justify-between items-center mx-auto px-5">
         <h1 class="leading-none">
-            <a href="/">
+            <a class="no-underline hover:underline" href="/">
                 <icon class="" @id="mjawn"></icon>
                 <span>mjawn</span>
             </a>
         </h1>
         <p class="font-heading text-2xl">
+            Kindly view on
             <a href="https://github.com/mjawn/mjawn.github.io">
-                <span>Kindly view on GitHub</span>
+                <span>GitHub</span>
                 <icon @id="ionic-github"></icon>
             </a>
         </p>
